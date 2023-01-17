@@ -23,12 +23,12 @@ for (let i = hacker2.length - 1; i > -1; i--){
 console.log(hacker2[i] )
 }
 
-for (let i = 0; i < 1 && hacker1[0] > hacker2[0]; i++ ){
+for (let i = 0; i < 1 && hacker1 > hacker2; i++ ){
  console.log("el conductor va primero")}
 
- for (let i = 0; i < 1 && hacker1[0] < hacker2[0]; i++ ){
+ for (let i = 0; i < 1 && hacker1 < hacker2; i++ ){
     console.log("Yo, el pasajero voy primero definitavemente")}
 
-    for (let i = 0; i < 1 && hacker1[0] === hacker2[0]; i++){
+    for (let i = 0; i < 1 && hacker1 === hacker2; i++){
         console.log("Que?? ambos tenemos el mismo nombre??")
     }
